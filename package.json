@@ -1,0 +1,15 @@
+{
+  "name": "react-native-monorepo",
+  "version": "0.0.1",
+  "description": "Stefan Ionut Ilie's react-native monorepo",
+  "main": "index.js",
+  "author": "shtefanilie",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "shared"
+    ]
+  }
+}
