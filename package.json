@@ -10,6 +10,9 @@
     "packages": [
       "apps/*",
       "shared"
+    ],
+    "nohoist": [
+      "**"
     ]
   }
 }
